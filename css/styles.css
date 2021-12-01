@@ -1,0 +1,436 @@
+@font-face {
+    font-family: 'ArialMT';
+    src: url('../fonts/ArialMT.woff2') format('woff2'),
+        url('../fonts/ArialMT.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: url('../fonts/Arial-BoldMT.woff2') format('woff2'),
+        url('../fonts/Arial-BoldMT.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Bold.woff2') format('woff2'),
+        url('../fonts/Lato-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot?2cu4c');
+    src:  url('../fonts/icomoon.eot') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf') format('truetype'),
+      url('../fonts/icomoon.woff') format('woff'),
+      url('../fonts/icomoon.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+  
+  [class^="icon-"], [class*=" icon-"] ::before {
+    
+    font-family: 'icomoon' !important;
+    
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+  
+.icon-arrow:before {
+    content: "\e900";
+    color: #2aacc8;
+}
+.icon-arrow_left .path1:before {
+    content: "\e901";
+    color: rgb(129, 228, 237);
+}
+.icon-arrow_left .path2:before {
+    content: "\e902";
+    margin-left: -1em;
+    color: rgb(67, 67, 67);
+}
+.icon-arrow_right .path1:before {
+    content: "\e903";
+    color: rgb(129, 228, 237);
+}
+.icon-arrow_right .path2:before {
+    content: "\e904";
+    margin-left: -1em;
+    color: rgb(67, 67, 67);
+}
+.icon-arrow-mini:before {
+    content: "\e905";
+}
+.icon-clients:before {
+    content: "\e906";
+    color: #2aacc8;
+}
+.icon-comments:before {
+    content: "\e907";
+    color: #2aacc8;
+}
+  
+body {
+    margin: 0 auto;
+    font-family: 'ArialMT' 'Arial Bold MT' 'Arial', 'Lato', 'Helvetica', 'icomoon' sans-serif;
+}
+header {
+        height: 90px;
+        padding: 20px 0;
+        max-width: 100%;   
+        margin: 0;
+        background-color: #e8ebf1;
+}
+header .center-block {
+    overflow: hidden;
+}
+.center-block {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+} 
+.logo {
+    width: 179px;
+    height: auto;
+    float: left;
+}
+ header nav{
+    padding: 0 3%; 
+    float: right;
+}
+header nav ul {
+    list-style: none; 
+}
+header nav ul li {
+    display:inline-block;
+}
+header  nav ul li a {
+    display:block; 
+    padding: 7px 10px;
+    font-size: 13px;
+    color: #000000;
+    font-family: 'Arial' ;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+header li ul li > a {
+        color: #000;
+        font-family: 'ArialMT';
+        font-size: 13px;
+        font-style: normal;
+        text-transform: none;
+        font-weight: 400;
+}
+header nav ul li:hover {
+    background:#fcfcfc; 
+}
+header  ul a:hover {
+    color: #2aacc8;
+}
+header  nav ul li ul {
+    display: none; 
+    position:absolute;
+    background: #fcfcfc;
+}
+header  nav ul li:hover ul {
+    display:block; 
+}
+header  nav ul li ul li {
+    display:block; 
+}
+.hero-slider {
+        background-color: #81e4ed;
+        height: 480px;
+        padding: 15px;
+}
+.hero-slider .center-block {
+        background-color: #e05936;
+        padding-right: 0px;
+}  
+.btn {
+        text-align: center;
+        padding: 20px 0 0 0;
+}
+.text p {
+        font-family: 'Lato';
+        font-weight: 700;
+        color: #ffffff;
+        font-size: 50px;
+        float: left;
+        max-width: 300px;
+        padding-top: 80px;
+}
+.text {
+        float: left;
+        padding: 0 0 0 20px;
+}
+.photo img {
+        margin: 0;
+        padding: 0 0 0 99px;
+}
+.text-section {
+        background-color: #e8ebf1;
+}
+.products-block {
+        overflow: hidden;
+}
+.center-block .products-block {
+        padding: 0;
+}
+.products-block .box-holder {
+        float: left;
+        width: 220px;
+        margin: 0 0 0 0px;
+        padding: 0 30px 0 0;
+}
+.box-holder a {
+        text-decoration: none;
+        color: #000;
+}
+.box-holder a:hover {
+        color: #2aacc8;
+}
+.box-holder h2 {
+        font-family: 'Arial';
+        font-size: 15px;
+        font-weight: 400;
+        text-transform: uppercase;
+}
+.box-holder p {
+        font-family: 'ArialMT';
+        font-size: 13px;
+        color: #363636;
+}
+.box-holder h2 img {
+        vertical-align: middle;
+}
+.box-holder p a::before {
+        content: "\e905";
+        font-family: 'icomoon';
+        color: #000;
+        font-size: 8px;
+}
+.products-block {
+        padding: 0 0 40px 0;
+}
+.photos {
+        padding-right: 0px;
+}
+.foto {
+        float: left;
+        margin: 0 10px;
+        width: 200px;
+        padding: 0 30px 0 0;
+}
+.foto .fotoes {
+        width: 200px;
+        position: relative;
+}
+.foto .fotoes:hover .links-holder {
+          display: block;
+}
+.foto img {
+       display: block;
+}
+.fotoes>img {
+        width: 200px;
+} 
+.foto .links-holder {
+         background-color: #2aacc8;
+         text-align: center;
+         font-size: 0;
+         line-height: 0;
+         padding: 20px 25px;
+         position: absolute;
+         bottom: 0;
+         left: 0;
+         right: 0;
+         display: none;
+}
+.foto .links-holder a {
+         display: inline-block;
+         vertical-align: middle;
+         margin: 0 35px 0 0;
+}
+.foto .links-holder a:last-child {
+           margin: 0;
+}
+h3 {
+    font-family: 'Arial';
+    font-size: 15px;
+    color: #000000;
+    text-transform: uppercase;
+}
+h3::before {
+    content: "\e900";
+    color: #2aacc8;
+    font-size: 25px;
+    font-family: 'icomoon';
+    padding: 0 20px 0 0;
+}
+
+h3 img {
+      float: right;
+}
+h3 {
+        margin: 20px 0;
+} 
+.box-holder img {
+    margin: 0 10px 0 0;
+}
+.texts {
+        width: 430px;
+        float: left;
+}
+h5::before {
+        content: "\e907";
+        color: #2aacc8;
+        font-family: 'icomoon';
+        padding: 0 5px 0 0 ;
+        font-size: 20px;
+} 
+h5 {
+         font-family: 'Arial';
+         font-size: 15px;
+         color: #000;
+         text-transform: uppercase;
+
+}
+.texts p {
+         font-family: 'ArialMT';
+         font-size: 14px;
+         color: #363636;
+}
+.Clients {
+         float: right;
+         margin: 0 20px 0 0;
+         overflow: hidden;
+}
+.Clients h5::before {
+        content: "\e906";
+        color: #2aacc8;
+        font-family: 'icomoon';
+}
+.name {
+         float: left;
+         padding: 0;
+         margin: 0;
+        
+}
+.brands  {
+         overflow: hidden;
+         width: 460px;
+         
+}
+.name img:first-child {
+    margin: 0 0 0 -10px;
+}
+
+.text-block {
+    float: left;
+    width: 600px;
+}
+.text-block p {
+    font-family: 'ArialMT';
+    font-size: 16px;
+    color: #363636;
+}
+button {
+    border: 0px #ffffff;
+    float: right;
+}
+.download {
+    margin: 20px;
+    overflow: hidden;
+}
+button {
+    width: 240px;
+    height: 60px;
+    
+    border-radius: 4%;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2), inset 0 2px 1px rgba(255, 255, 255, 0.1);
+    background-color: #2aacc8;
+    border: 1px solid #2aacc8;
+    background-image: linear-gradient(to top, #2aacc8 0%, #60cede 15%, #72dae6 50%, #81e4ed 100%);
+}
+.footer {
+    background-color: #e8ebf1;
+    overflow: hidden;
+}
+.blocks {
+    float: left;
+}
+.blocks:first-child {
+    width: 210px;
+}
+.blocks:last-child {
+    width: 200px;
+    padding: 0 0 0 70px;
+}
+.blocks:nth-child(2) {
+    width: 100px;
+    padding: 0 30px 0 60px;
+}
+.blocks:nth-child(3) {
+    width: 100px;
+}
+.blocks:nth-child(4) {
+    padding: 0 0 0 70px;
+}
+.info p {
+    color: #363636;
+    font-family: 'ArialMT';
+    font-size: 14px;
+    color: #363636;
+}
+ .blocks ul {
+    list-style: none;
+    padding: 0;
+}
+.blocks h6 {
+    font-family: 'Arial';
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.blocks ul li a {
+    font-family: 'ArialMT';
+    font-family: 14px;
+    color: #363636;
+    text-decoration: none;
+    text-transform: none;
+    line-height: 26px;
+}
+.copyright {
+    float: left;
+    width: 650px;
+}
+.copyright p {
+    font-family: 'ArialMT';
+    font-size: 13px;
+    color: #363636;
+}
+.copy img {
+    float: right;
+}
+.copy {
+    padding: 40px 0 0 0;
+}
