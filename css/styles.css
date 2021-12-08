@@ -88,6 +88,7 @@
 body {
     margin: 0 auto;
     font-family: 'ArialMT' 'Arial Bold MT' 'Arial', 'Lato', 'Helvetica', 'icomoon' sans-serif;
+    min-width: 1000px
 }
 header {
         height: 90px;
