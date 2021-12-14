@@ -104,11 +104,13 @@ header .center-block {
     width: 1000px;
     margin: 0 auto;
     overflow: hidden;
+    padding: 10px;
 } 
 .logo {
     width: 179px;
     height: auto;
     float: left;
+    padding: 10px;
 }
  header nav{
     padding: 0 3%; 
